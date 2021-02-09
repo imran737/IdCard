@@ -1,0 +1,25 @@
+var div = document.getElementById("info")
+var inpId = document.getElementById("inpId")
+var inpName = document.getElementById("inpName")
+var inpFather = document.getElementById("inpFather")
+var inpClass = document.getElementById("inpClass")
+var inpCall = document.getElementById("inpCall")
+var id = document.getElementById("num")
+var head = document.getElementById("heading")
+
+function idCard(){
+    var head = document.createTextNode(heading)
+    var textid = document.createTextNode(inpId)
+    var textname = document.createTextNode(inpName)
+    var textfname = document.createTextNode(inpFather)
+    var textclass = document.createTextNode(inpClass)
+    var textcall = document.createTextNode(inpCall)
+    div.appendChild(heading)
+    // div.appendChild(num)
+    // div.appendChild(sname)
+    // div.appendChild(father)
+    // div.appendChild(cl)
+    // div.appendChild(ecl)
+    console.log(div)
+}
+
